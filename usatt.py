@@ -64,6 +64,4 @@ def adjustment(rating, wins, losses):
       return (avg + final)/2
     else:
       return final
-
-
-print(calc_rating(1607, [1525,1990,1909,1901], [1637]));
+#print(calc_rating(1800, [1525,1900,1790,1600], [2000,2100,1850]))
